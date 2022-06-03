@@ -169,6 +169,7 @@ kujirad tx staking create-validator -y \
   --pubkey "$(kujirad tendermint show-validator)" \
   --amount 5000000ukuji \
   --identity "<Keybase.io ID>" \
+  --website "<website-address>" \
   --details "Some description" \
   --from <wallet-name> \
   --gas-prices 1ukuji \
@@ -185,6 +186,7 @@ kujirad tx staking create-validator -y \
   --pubkey "$(kujirad tendermint show-validator)" \
   --amount 5000000ukuji \
   --identity "D74433D32938F013" \
+  --website "http://www.mywebsite.com" \
   --details "Some description" \
   --from my_wallet \
   --gas-prices 1ukuji \
