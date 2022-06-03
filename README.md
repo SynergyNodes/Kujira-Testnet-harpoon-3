@@ -1,5 +1,7 @@
 # Kujira Testnet harpoon-3 Validator Node Setup
 
+[![Kujira Testnet harpoon-3 Validator Node Setup](https://www.synergynodes.com/youtube/Kujira-Harpoon-3-Testnet-Validator-Node-Youtube.jpg)](https://youtu.be/DCSwgtRm6IE)
+
 ## Install Ubuntu 20.04 on a new server and login as root
 
 ## Install ``ufw`` firewall and configure the firewall
