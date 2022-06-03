@@ -37,6 +37,9 @@ sudo apt-get install manpages-dev -y
 # install go
 curl https://dl.google.com/go/go1.18.2.linux-amd64.tar.gz | sudo tar -C/usr/local -zxvf -
 
+```
+
+```
 # Update environment variables to include go
 cat <<'EOF' >>$HOME/.profile
 export GOROOT=/usr/local/go
@@ -45,6 +48,9 @@ export GO111MODULE=on
 export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 EOF
 
+```
+
+```
 source $HOME/.profile
 
 # check go version
@@ -93,14 +99,8 @@ kujirad start
 cd /etc/systemd/system
 sudo nano kujirad.service
 ```
-Copy the following content into 
+Copy the following content into ``kujirad.service`` and save it.
 
-
-
-
-
-
-d.service and save it.
 ```
 [Unit]
 Description=Kujirad Daemon
